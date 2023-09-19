@@ -7,12 +7,13 @@
 }
 .navbar{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.2rem;
     background:rgba(0,0,0,0.6);
    
 }
+
 .navbar-dark .navbar-nav .nav-item .nav-link{
    padding-left: 20px;
    padding: 20px;
@@ -20,7 +21,7 @@
 
 
 }
-.navbar-dark .navbar-nav .nav-item .nav-link .active,
+
 .navbar-dark .navbar-nav .nav-item .nav-link:hover {
     color: red;
 }
@@ -30,3 +31,39 @@
     width: 100%;
     max-width: 100%;
 }
+/* about */
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#about .btn:hover{
+border: 2px solid;
+color: blue;
+
+}
+/* service */
+#service .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#service .btn:hover{
+    border: 2px solid;
+    color: blue;
+    
+    }
+  
